@@ -1,0 +1,67 @@
+.NavLinkHome {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .NavLinkHome:hover {
+    color: #0056b3;
+  }
+  
+  .EmployeeListMain {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .EmployeeListTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .EmployeeListTable th, .EmployeeListTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .EmployeeListTableHead {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .EmployeeListTableRow:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .EmployeeListTableHeadings {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+  }
+  
+  .EmployeeListTableBody .EmployeeListTableRow:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .EmployeeListTableData {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .EmployeeListTableData img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 5px;
+  }
+  

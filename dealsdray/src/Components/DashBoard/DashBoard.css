@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .NavigateLinks {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .NavigateLinks:hover {
+    background-color: #0056b3;
+  }
+  
+  .WelcomePage {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333;
+  }
+  
